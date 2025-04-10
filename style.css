@@ -92,6 +92,27 @@ header p {
   background-color: #076dc0;
 }
 
+.additional-info {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  animation: fadeIn 1.4s ease-out;
+}
+
+.additional-info h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.additional-info p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 .pitch-extra {
   background: rgba(255, 255, 255, 0.05);
   padding: 2rem;
