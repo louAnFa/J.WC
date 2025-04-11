@@ -137,6 +137,29 @@ header p {
   font-size: 0.95rem;
 }
 
+.honorable-mentions {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  animation: fadeIn 1.4s ease-out;
+}
+
+.honorable-mentions h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.honorable-mentions ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
 button#doneBtn {
   background-color: #00b894;
   color: #fff;
